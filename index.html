@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="description" content="IRON CORE — премиум фитнес-клуб премиум класса. Тренажерный зал, групповые занятия, бассейн, сауна и профессиональные тренеры.">
+    <meta name="keywords" content="фитнес, тренажерный зал, Киев, спорт, тренеры, бассейн, сауна, IRON CORE">
+    <meta name="author" content="IRON CORE">
+    <meta name="theme-color" content="#0a0a0a">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="IRON CORE | Фитнес-клуб премиум класса">
+    <meta property="og:description" content="IRON CORE — премиум фитнес-клуб премиум класса. Тренажерный зал, групповые занятия, бассейн, сауна и профессиональные тренеры.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1200">
+    <meta property="og:url" content="https://ironcore.ua">
+    <meta property="og:site_name" content="IRON CORE">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IRON CORE | Фитнес-клуб премиум класса">
+    <meta name="twitter:description" content="IRON CORE — премиум фитнес-клуб премиум класса. Тренажерный зал, групповые занятия, бассейн, сауна и профессиональные тренеры.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1200">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💪</text></svg>">
+
+    <title>IRON CORE | Фитнес-клуб премиум класса</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SportsActivityLocation",
+      "name": "IRON CORE Fitness Club",
+      "description": "Премиум фитнес-клуб с тренажерным залом, бассейном, сауной и профессиональными тренерами.",
+      "url": "https://ironcore.ua",
+      "telephone": "+38-044-555-77-99",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ул. Спортивная, 42",
+        "addressLocality": "Киев",
+        "addressCountry": "UA"
+      },
+      "openingHours": "Mo-Su 06:00-23:00",
+      "priceRange": "₴₴₴"
+    }
+    </script>
+</head>
+<body>
+<div id="preloader">
+    <div class="preloader-logo">IRON<span>CORE</span></div>
+    <div class="preloader-bar">
+        <div class="preloader-progress"></div>
+    </div>
+</div>
+<header>
+    <div class="container header-inner">
+        <a href="index.html" class="logo">
+            <div class="logo-icon">IC</div>
+            IRON<span>CORE</span>
+        </a>
+        <nav class="nav-desktop">
+            <a href="index.html" class="active">Главная</a><a href="about.html" class="">О клубе</a><a href="trainers.html" class="">Тренеры</a><a href="schedule.html" class="">Расписание</a><a href="gallery.html" class="">Галерея</a><a href="shop.html" class="">Магазин</a><a href="pricing.html" class="">Тарифы</a><a href="blog.html" class="">Блог</a><a href="contact.html" class="">Контакты</a>
+        </nav>
+        <div class="header-actions">
+            <button class="cart-btn" aria-label="Корзина">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                <span class="cart-count" style="display:none">0</span>
+            </button>
+            <a href="pricing.html" class="btn btn-small">Купить сейчас</a>
+            <button class="menu-toggle" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<div class="overlay"></div>
+<nav class="nav-mobile">
+    <a href="index.html" class="active">Главная <span style="color:var(--primary)">›</span></a><a href="about.html" class="">О клубе <span style="color:var(--primary)">›</span></a><a href="trainers.html" class="">Тренеры <span style="color:var(--primary)">›</span></a><a href="schedule.html" class="">Расписание <span style="color:var(--primary)">›</span></a><a href="gallery.html" class="">Галерея <span style="color:var(--primary)">›</span></a><a href="shop.html" class="">Магазин <span style="color:var(--primary)">›</span></a><a href="pricing.html" class="">Тарифы <span style="color:var(--primary)">›</span></a><a href="blog.html" class="">Блог <span style="color:var(--primary)">›</span></a><a href="contact.html" class="">Контакты <span style="color:var(--primary)">›</span></a>
+    <div style="margin-top:20px;padding-top:20px;border-top:1px solid var(--border)">
+        <a href="pricing.html" class="btn" style="width:100%;clip-path:none;border-radius:var(--radius)">Купить сейчас</a>
+    </div>
+</nav>
+
+
+<!-- Hero -->
+<section class="hero">
+    <div class="hero-bg">
+        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1920" alt="Тренажерный зал IRON CORE" loading="eager">
+    </div>
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span style="font-size:1.2rem">🔥</span> Лучший фитнес-клуб 2024 года
+            </div>
+            <h1>Построй свое <br><span>лучшее тело</span></h1>
+            <p>IRON CORE — это не просто зал, это твоя новая реальность. 3500 м² премиального пространства, оборудование мирового класса Hammer Strength и Technogym, олимпийский бассейн и команда топ-тренеров ждут тебя.</p>
+            <div class="hero-buttons">
+                <a href="pricing.html" class="btn">Начать тренироваться</a>
+                <a href="about.html" class="btn btn-outline">Узнать больше</a>
+            </div>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="hero-stat-number">3500</span>
+                    <div class="hero-stat-label">м² площади</div>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number">120+</span>
+                    <div class="hero-stat-label">Тренажеров</div>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number">25м</span>
+                    <div class="hero-stat-label">Бассейн</div>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number">50+</span>
+                    <div class="hero-stat-label">Тренеров</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features -->
+<section>
+    <div class="container">
+        <h2 class="section-title animate">Почему выбирают <span>IRON CORE</span></h2>
+        <p class="section-subtitle animate">Мы создали пространство, где каждая деталь работает на ваш результат. От премиального оборудования до персонального подхода.</p>
+
+        <div class="grid-3">
+            <div class="feature-card animate">
+                <div class="feature-icon">🏋️</div>
+                <h3>Премиум оборудование</h3>
+                <p>Hammer Strength, Technogym, Eleiko. Более 120 единиц профессионального оборудования для силовых и функциональных тренировок.</p>
+            </div>
+            <div class="feature-card animate">
+                <div class="feature-icon">🏊</div>
+                <h3>Олимпийский бассейн</h3>
+                <p>25-метровый бассейн с 6 дорожками, джакузи, финская сауна и хаммам. Идеальное восстановление после тренировок.</p>
+            </div>
+            <div class="feature-card animate">
+                <div class="feature-icon">👨‍🏫</div>
+                <h3>Топ-тренеры</h3>
+                <p>50+ сертифицированных специалистов с опытом от 5 лет. Индивидуальный подход и гарантия результата.</p>
+            </div>
+            <div class="feature-card animate">
+                <div class="feature-icon">🕐</div>
+                <h3>Режим 24/7</h3>
+                <p>Клуб открыт ежедневно с 06:00 до 23:00. Тренируйтесь в удобное время без очередей и ожиданий.</p>
+            </div>
+            <div class="feature-card animate">
+                <div class="feature-icon">🅿️</div>
+                <h3>Парковка</h3>
+                <p>Бесплатная охраняемая парковка на 200 мест. Удобный заезд и видеонаблюдение 24/7.</p>
+            </div>
+            <div class="feature-card animate">
+                <div class="feature-icon">🥤</div>
+                <h3>Бар и ресторан</h3>
+                <p>Спортивное питание, свежевыжатые соки, протеиновые коктейли и здоровая еда от шеф-повара.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Stats Banner -->
+<section class="stats-section">
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-item animate">
+                <h3>8+</h3>
+                <p>Лет на рынке</p>
+            </div>
+            <div class="stat-item animate">
+                <h3>5000+</h3>
+                <p>Довольных клиентов</p>
+            </div>
+            <div class="stat-item animate">
+                <h3>300+</h3>
+                <p>Групповых занятий</p>
+            </div>
+            <div class="stat-item animate">
+                <h3>50+</h3>
+                <p>Профессиональных тренеров</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Trainers Preview -->
+<section class="alt">
+    <div class="container">
+        <h2 class="section-title animate">Наши лучшие <span>Тренеры</span></h2>
+        <p class="section-subtitle animate">Команда профессионалов, которая поможет достичь любых целей — от похудения до подготовки к соревнованиям.</p>
+
+        <div class="grid-4">
+            <div class="card trainer-card animate">
+                <img src="https://images.unsplash.com/photo-1567598508481-65985588e295?q=80&w=600" alt="Алекс Титан — персональный тренер" loading="lazy">
+                <div class="trainer-info">
+                    <div class="trainer-role">Силовой тренинг</div>
+                    <h3>Алекс "Титан"</h3>
+                    <div class="trainer-stats">
+                        <p>Опыт: <span>12 лет</span></p>
+                        <p>Учеников: <span>300+</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card trainer-card animate">
+                <img src="https://images.unsplash.com/photo-1548690312-e3b507d8c110?q=80&w=600" alt="Мария Шторм — фитнес-тренер" loading="lazy">
+                <div class="trainer-info">
+                    <div class="trainer-role">Фитнес / Пилатес</div>
+                    <h3>Мария Шторм</h3>
+                    <div class="trainer-stats">
+                        <p>Опыт: <span>8 лет</span></p>
+                        <p>Титулов: <span>5</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card trainer-card animate">
+                <img src="https://images.unsplash.com/photo-1611672585731-fa10603fb9e0?q=80&w=600" alt="Максим Файтер — боксерский тренер" loading="lazy">
+                <div class="trainer-info">
+                    <div class="trainer-role">Бокс / MMA</div>
+                    <h3>Максим Файтер</h3>
+                    <div class="trainer-stats">
+                        <p>Опыт: <span>15 лет</span></p>
+                        <p>Боев: <span>42</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card trainer-card animate">
+                <img src="https://images.unsplash.com/photo-1606902960316-39af216e53f0?q=80&w=600" alt="Елена Высоцкая — CrossFit тренер" loading="lazy">
+                <div class="trainer-info">
+                    <div class="trainer-role">CrossFit / TRX</div>
+                    <h3>Елена Высоцкая</h3>
+                    <div class="trainer-stats">
+                        <p>Опыт: <span>10 лет</span></p>
+                        <p>Чемпион: <span>CrossFit</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align:center;margin-top:50px">
+            <a href="trainers.html" class="btn btn-outline">Все тренеры</a>
+        </div>
+    </div>
+</section>
+
+<!-- Gallery Preview -->
+<section>
+    <div class="container">
+        <h2 class="section-title animate">Интерьер и <span>Зоны</span></h2>
+        <p class="section-subtitle animate">3500 м² продуманного пространства для комфортных и эффективных тренировок.</p>
+
+        <div class="gallery-grid">
+            <div class="gallery-item wide animate">
+                <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=1200" alt="Тренажерный зал" loading="lazy">
+            </div>
+            <div class="gallery-item animate">
+                <img src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e?q=80&w=800" alt="Зона кроссфита" loading="lazy">
+            </div>
+            <div class="gallery-item animate">
+                <img src="https://images.unsplash.com/photo-1583416750470-965b2707b355?q=80&w=800" alt="Бассейн" loading="lazy">
+            </div>
+            <div class="gallery-item wide animate">
+                <img src="https://images.unsplash.com/photo-1594911181313-09497a7318be?q=80&w=1200" alt="Сауна и СПА" loading="lazy">
+            </div>
+        </div>
+
+        <div style="text-align:center;margin-top:50px">
+            <a href="gallery.html" class="btn btn-outline">Смотреть всю галерею</a>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section class="alt">
+    <div class="container">
+        <h2 class="section-title animate">Истории <span>Успеха</span></h2>
+        <p class="section-subtitle animate">Реальные результаты наших клиентов. Присоединяйтесь к тысячам довольных членов клуба.</p>
+
+        <div class="grid-3">
+            <div class="testimonial-card animate">
+                <p class="testimonial-text">За 6 месяцев работы с Алексом я набрал 12 кг мышечной массы и полностью изменил свое отношение к спорту. IRON CORE — это не просто зал, это образ жизни.</p>
+                <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200" alt="Дмитрий К.">
+                    <div class="testimonial-author-info">
+                        <h4>Дмитрий Коваленко</h4>
+                        <p>Член клуба 2 года</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card animate">
+                <p class="testimonial-text">Похудела на 25 кг за 8 месяцев благодаря программе Марии. Групповые занятия — это моя любовь! Атмосфера невероятная, все друг друга поддерживают.</p>
+                <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200" alt="Анна М.">
+                    <div class="testimonial-author-info">
+                        <h4>Анна Морозова</h4>
+                        <p>Член клуба 1.5 года</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card animate">
+                <p class="testimonial-text">Бассейн и сауна после тренировки — это бесценно. Оборудование новейшее, никогда нет очередей. Лучший клуб в Киеве без сомнений!</p>
+                <div class="testimonial-author">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200" alt="Сергей В.">
+                    <div class="testimonial-author-info">
+                        <h4>Сергей Волков</h4>
+                        <p>Член клуба 3 года</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section style="background: linear-gradient(135deg, rgba(255,42,42,0.1) 0%, transparent 100%); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+    <div class="container" style="text-align:center">
+        <h2 class="section-title animate">Готов начать <span>трансформацию?</span></h2>
+        <p class="section-subtitle animate" style="margin-bottom:40px">Получите бесплатную консультацию тренера и пробную тренировку при оформлении абонемента сегодня.</p>
+        <div class="animate" style="display:flex;gap:20px;justify-content:center;flex-wrap:wrap">
+            <a href="pricing.html" class="btn">Выбрать тариф</a>
+            <a href="contact.html" class="btn btn-outline">Связаться с нами</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">IC</div>
+                    IRON<span>CORE</span>
+                </a>
+                <p>Премиум фитнес-клуб нового поколения. Тренажерный зал, групповые занятия, бассейн, сауна и профессиональные тренеры.</p>
+                <div class="contact-social">
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Telegram">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="YouTube">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h4 class="footer-title">Разделы</h4>
+                <div class="footer-links">
+                    <a href="about.html">О клубе</a>
+                    <a href="trainers.html">Тренеры</a>
+                    <a href="schedule.html">Расписание</a>
+                    <a href="gallery.html">Галерея</a>
+                    <a href="pricing.html">Тарифы</a>
+                </div>
+            </div>
+            <div>
+                <h4 class="footer-title">Информация</h4>
+                <div class="footer-links">
+                    <a href="blog.html">Блог</a>
+                    <a href="shop.html">Магазин</a>
+                    <a href="contact.html">Контакты</a>
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Условия использования</a>
+                </div>
+            </div>
+            <div>
+                <h4 class="footer-title">Контакты</h4>
+                <div class="footer-contact">
+                    <p>📍 г. Киев, ул. Спортивная, 42</p>
+                    <p>📞 +38 (044) 555-77-99</p>
+                    <p>✉️ info@ironcore.ua</p>
+                    <p>🕐 Ежедневно: 06:00 — 23:00</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span class="current-year">2024</span> IRON CORE. Все права защищены.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Политика конфиденциальности</a>
+                <a href="#">Cookies</a>
+                <a href="#">Карта сайта</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Cart Modal -->
+<div class="modal-overlay" id="cart-modal">
+    <div class="modal">
+        <div class="modal-header">
+            <h3>🛒 Корзина</h3>
+            <button class="modal-close">×</button>
+        </div>
+        <div class="modal-body">
+            <div class="cart-items"></div>
+            <div class="cart-total">
+                <h4>Итого:</h4>
+                <p class="cart-total-price">0 ₴</p>
+            </div>
+            <button class="btn" style="width:100%;margin-top:20px" onclick="showToast('Оформление заказа в разработке')">Оформить заказ</button>
+        </div>
+    </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
